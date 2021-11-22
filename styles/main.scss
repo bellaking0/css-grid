@@ -11,9 +11,9 @@
     grid-template-columns: 150px 1fr;
 }
 .featured-items {
+    .feature-one {
+        grid-row-start: span;
+    }
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 10px;
-}
-.feature-one {
-    grid-row-start: span;
 }
